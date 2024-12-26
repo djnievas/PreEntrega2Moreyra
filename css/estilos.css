@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form, table {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form label, table th {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
